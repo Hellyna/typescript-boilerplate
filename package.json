@@ -1,0 +1,19 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "Simple NodeJS boilerplate with support for recompiling TypeScript and restarting server when changes occur.",
+  "main": "lib/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hellyna NG",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-nodemon": "^2.0.2",
+    "gulp-typescript": "^2.6.0"
+  }
+}
